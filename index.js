@@ -19,7 +19,11 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use('/products', product);
 
 app.get('/', (req, res) => {
-    res.send('Welcome to my Crud Server')
+    res.send('<h1>Welcome to my Crud Server</h1>')
+});
+
+app.get('*', (req, res, next) => {
+    res.redirect('/');
 });
 
 const port = (process.env.PORT || 5050);
