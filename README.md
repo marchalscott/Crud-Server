@@ -17,7 +17,7 @@ https://shielded-ravine-64228.herokuapp.com/
 * color: product color
 * size: product size
 
-#### Routes ####
+#### End Points ####
 
 # Get All Products
 * "product/" - Get all products in the database
@@ -27,6 +27,8 @@ https://shielded-ravine-64228.herokuapp.com/
 
 # Get Product by Price
 * "product/price/:price"
+
+#Create, Update, and Delete Section
 
 # Create New Product
 * "product/create" - Add a new product
