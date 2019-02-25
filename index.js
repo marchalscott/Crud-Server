@@ -18,6 +18,10 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 app.use('/products', product);
 
+app.get('/', (req, res) => {
+    res.send('Welcome to my Crud Server')
+});
+
 const port = (process.env.PORT || 5050);
 
 app.listen(port, () => {
