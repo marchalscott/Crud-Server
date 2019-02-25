@@ -1,7 +1,7 @@
 # RESTful CRUD Node-Server
 
 # Marchal's Watch Store
-A marketplace where users can trade watches
+A marketplace where users can buy watches
 
 # Server Process
 I used postman to fill my server with data.
@@ -15,7 +15,7 @@ size: product size
 # Deployment 
 Deployed to Heroku. To view deployment link:
 
-[https://fierce-cliffs-31944.herokuapp.com/products/test]()
+[https://shielded-ravine-64228.herokuapp.com/]()
 
 
 #### Routes ####
