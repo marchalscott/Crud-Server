@@ -1,6 +1,6 @@
 # RESTful CRUD Node-Server
 
-# Swapply
+# Marchal's Watch Store
 A marketplace where users can trade watches
 
 # Server Process
@@ -18,26 +18,26 @@ Deployed to Heroku. To view deployment link:
 [https://fierce-cliffs-31944.herokuapp.com/products/test]()
 
 
-# Routes
+#### Routes ####
 
 # Get All Products
 
-* "/" - Get all products in the database
+* "product/" - Get all products in the database
 
 # Get Product by Name
 
-* "/name/:name" - Get a product by specific name
+* "product/name/:name" - Get a product by specific name
 
-# Get Product by Size
+# Get Product by Price
 
-* "/price/:price"
+* "product/price/:price"
 
 
 # Create New Product
 
-* "/create" - Add a new product
+* "product/create" - Add a new product
 
-To add a new product in Postman use the following format:
+*To add a new product in Postman use the following format:
  
 name: product name,
 price: product price,
