@@ -1,7 +1,7 @@
 const Product = require('../models/product.model');
 
 exports.test = function (req, res) {
-    res.send('Welcome to  Marchals Store);
+    res.send('Welcome to  Marchals Store');
 };
 
 exports.all = (req, res) => {
