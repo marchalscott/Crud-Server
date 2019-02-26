@@ -3,8 +3,6 @@ const router = express.Router();
 
 const product_controller = require('../controllers/product.controller');
 
-router.get('/test', product_controller.test);
-
 router.get('/', product_controller.all);
 router.get('/name/:name', product_controller.find_name);
 router.get('/price/:price', product_controller.find_price);
