@@ -9,7 +9,7 @@ I used postman to fill my server with data.
 # Deployment
 Deployed to Heroku. To view deployment link:
 
-https://shielded-ravine-64228.herokuapp.com/
+https://fierce-cliffs-31944.herokuapp.com/products/
 
 # Data Structure
 * name: product name
