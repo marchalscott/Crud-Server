@@ -32,7 +32,7 @@ https://shielded-ravine-64228.herokuapp.com/
 
 # Create New Product
 * "product/create" - Add a new product
-* To add a new product in Postman use the following format:
+* In order to add a new product in Postman please use the following format:
 name: product name,
 price: product price,
 color: product color,
