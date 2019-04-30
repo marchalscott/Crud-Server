@@ -5,6 +5,13 @@ const product = require('./routes/product.route');
 
 const app = express();
 
+app.use((req, res, next) => {
+    res.setHeader('Access-Control-Allow-Origin', '*')
+    res.setHeader('Access-Control-Allow-Methods', '*')
+    res.setHeader('Access-Control-Allow-Headers', '*')
+    next()
+})
+
 const mongoose = require('mongoose');
 let dev_db_url = 'mongodb+srv://admin:TheMoriut10!!@cluster0-o74tg.mongodb.net/Product';
 let mongoDB = process.env.MONGODB_URI || dev_db_url;
