@@ -24,7 +24,7 @@ Secondary - https://fierce-cliffs-31944.herokuapp.com/products/
 # End Points
 
 # Get All Products
-* "product/" - Get all products in the database
+* "products/" - Get all products in the database
 
 # Get Product by Name
 * "product/name/:name" - Get a product by specific name
